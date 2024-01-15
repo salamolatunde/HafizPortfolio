@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <style>
+            body{
+                width: 0px 100%;
+                margin: 10px 200px;
+                background-size: 100%;
+                padding: 20px;
+                
+            }
+            section{
+                padding: 50px;
+                margin: 0px;
+            }
+            input{
+                margin: 0px 40px;
+            }
+            select{
+                margin: 0px 40px;
+            }
+        </style>
+
+    </head>
+    <body>
+        <form action="">
+            <div style="background-color: antiquewhite; text-align: center;">
+                <img src="./Photos/lautech-logo.jpg" width="50px" alt="logo">
+
+                <h1>Ladoke Akintola University Of Technology</h1>
+                <h2>Student's Registration Form</h2>
+            </div>
+            <section style="background-color: rgba(255, 0, 0, 0.849); font-size: 20px;">
+                <label for="Full Name">Student Name:</label>
+                <input type="text" placeholder="Full Name"><br><br>
+                <label for="Father's Name">Father's Name: </label>
+                <input type="text" placeholder="Father's Full Name"><br><br>
+                <label for="Mother's Name">Mother's Name: </label>
+                <input type="text" placeholder="Mothers Full Name"><br><br>
+                <label for="Gender">Gender:</label>
+                <label for="Male" id="Male">Male</label>
+                <input type="radio">
+                <label for="Female" id="Female">Female</label>
+                <input type="radio"><br><br>
+                <label for="Dob" id="Dob">Date Of Birth:</label>
+                <input type="date" placeholder="dd/mm/yy"><br><br>
+                <label for="email" id="email">Email:</label>
+                <input type="email" placeholder="Enter Email"><br><br>
+                <label for="Level" id="Level">Level:</label>
+                <select name="select" id="level">
+                    <option value="">Select Level</option>
+                    <option value="100 Level">100 Level</option>
+                    <option value="200 Level">200 Level</option>
+                    <option value="300 Level">300 Level</option>
+                    <option value="400 Level">400 Level</option>
+                    <option value="500 Level">500 Level</option>
+                </select><br><br>
+                <label for="department" id="department">Department:</label>
+                <select name="select" id="department">
+                    <option value="">Select Dept</option>
+                    <option value="100 Level">Elect Engr</option>
+                    <option value="200 Level">Agric Sc</option>
+                    <option value="300 Level">Anatomy</option>
+                    <option value="400 Level">Business Admin</option>
+                    <option value="500 Level">Int'l Law</option>
+                </select><br><br>
+                <label for="telephone" id="telephone">Telephone:</label>
+                <input type="number" placeholder="Enter Phone No">
+            </section>
+        </form>
+    </body>
+</html>

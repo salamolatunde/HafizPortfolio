@@ -1,0 +1,36 @@
+body{
+    margin: 50px;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 50%;
+    height: 50%;
+}
+#top{
+    background-color: rgba(0, 255, 128, 0.651) 1px solid;
+    background: rgba(255, 192, 203, 0.692);
+    height: 40%;
+    width: inherit;
+    padding: 5px;
+}
+.profile{
+    background-color: rgba(0, 0, 255, 0.432);
+    background-image: url(./Photos/remote\ work\ image\ -\ Copy.jpg);
+    background-size: 30px;
+    width: inherit ;
+    height: 50%;
+    border-radius: 50%;
+    text-align: center;
+}
+#sect{
+    background-color: gray;
+    border: 8px solid green;
+    
+    padding: 4px;
+    width: 68% initial;
+    height: 68% inherit;
+}
+ul{
+    background-color: purple;
+    margin: 4px 8px;
+}
+

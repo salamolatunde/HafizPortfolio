@@ -1,0 +1,112 @@
+body{
+    padding: 60px;
+    background-image: url(bluewallpaper.jpg);
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+
+}
+
+
+.header{
+    text-align:right;
+    word-spacing: 30px;
+    background-color: #513d32ff;
+    font-size: 20px;
+    color:#513d32ff;
+    background: fixed;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+#newsletter{
+    padding: 2px 2px;
+    color: #ffffff;
+    background-color: #7d0d74;
+    margin: 5px 50px;
+}
+#newsletter h3{
+    float: left;
+}
+#newsletter form{
+    float: right;
+    margin-top: 15px;
+}
+#newsletter input[type="email"]{
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+#newsletter .button_1[type="submit"]{
+    padding: 4px;
+    height: 37px;
+    width: 100px;
+}
+
+link{
+    color: #e08e37ff;
+}
+a:hover{
+    color:#513d32ff;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+.box1{
+    text-align: center;
+    border: 2px solid white;
+    padding: 5px;
+    width: 20%;
+    opacity: 0.7;
+    background-color:white;
+    color: #53c2f9ff;
+}
+
+.box1:hover{
+    cursor: pointer;
+    opacity: 1.0;
+ 
+}
+
+
+.box2{
+    text-align: center;
+    border: 2px solid white;
+    padding: 5px;
+    width: 20%;
+    opacity: 0.7;
+    background-color: #fff699ff;
+}
+
+.box2:hover{
+    cursor: pointer;
+    opacity: 1.0;
+ 
+}
+
+.box3{
+    text-align: center;
+    border: 2px solid white;
+    padding: 5px;
+    width: 20%;
+    opacity: 0.7;
+    background-color:white;
+    color: #53c2f9ff;
+}
+
+.box3:hover{
+    cursor: pointer;
+    opacity: 1.0;
+ 
+}
+
+footer{
+    height: 30px;
+    text-align: center;
+    padding-top: 20px;
+    background-color: white;
+    word-spacing: 30px;
+    
+}

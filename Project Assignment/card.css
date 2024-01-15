@@ -1,0 +1,37 @@
+*{
+    /* justify-content: space-evenly; */
+    margin: 20px 10px;
+    display: flex;
+    flex: 1;
+}
+.full-batt{
+    color: rgba(0, 0, 0, 0.747);
+    font-size: 200px;
+    background-color: wheat;
+    padding: 0px 10px;
+}
+.empty-batt{
+    color: red;
+    font-size: 200px;
+    background-color: wheat;
+    padding: 0px 10px;
+}
+.house{
+    color: white;
+    font-size: 200px;
+    background-color: peru;
+    padding: 0px 10px;
+
+}
+.icon-file{
+    color: pink;
+    font-size: 200px;
+    background-color: grey;
+    padding: 0px 10px;
+}
+.recycle-img{
+    color: gray;
+    font-size: 200px;
+    background-color: brown;
+    padding: 0px 10px;
+}
